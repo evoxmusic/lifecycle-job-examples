@@ -23,7 +23,7 @@ resource "aws_db_instance" "rds_instance" {
   storage_type        = "gp2"
   engine              = "mysql"
   engine_version      = "8.0.27"
-  instance_class      = "db.t3.micro"
+  instance_class      = "db.t3.medium"
   name                = "myDbName${split("-", var.qovery_environment_id)[0]}"
   username            = "yourDbUsername"
   password            = "yourPassword"
