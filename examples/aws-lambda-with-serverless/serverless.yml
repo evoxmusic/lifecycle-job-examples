@@ -7,7 +7,7 @@ plugins:
 
 provider:
   name: aws
-  runtime: nodejs14.x
+  runtime: nodejs20.x
   tags:
     project: aws-lambda-with-serverless
     owner: qovery
